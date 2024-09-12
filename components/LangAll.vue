@@ -3,7 +3,7 @@
     v-model="language"
     class="h-10 rounded border bg-malachite-950 p-1 text-malachite-300 dark:border-gray-700 dark:bg-malachite-300 dark:text-malachite-950"
   >
-    <option v-for="lang in locales" :key="lang" :value="lang.code">
+    <option v-for="lang in locales" :key="lang.code" :value="lang.code">
       {{ lang.name }}
     </option>
   </select>
